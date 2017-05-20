@@ -1,3 +1,5 @@
-<h1>
-  {{title}}
-</h1>
+<ul *ngFor="let employee of employees">
+  <li>{{employee.id}}</li>
+  <li>{{employee.firstname}}</li>
+  <li>{{employee.lastname}}</li>
+</ul>
